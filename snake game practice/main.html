@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="shortcut icon" href="images/l.png" type="image/x-icon">  
+
+</head>
+<body>
+    <h1>🐍Snake game🐍</i></h1>
+    <div id="main">
+    <canvas id="board"></canvas>
+    </div>
+   <div id="container"> 
+      <div id="btn">
+        <div><button type="reset" id="restart" >Restart</button></div>
+   
+     </div>
+     <div>
+        <div><button id="up" onclick="up()">⬆️</button></div>
+        <div>
+         <button id="left"  onclick="left()">⬅️</button>
+         <button id="down"  onclick="down()">⬇️</button>
+         <button id="right"  onclick="right()">➡️</button>
+       </div>
+      </div>
+    <h2>Score <span id="score">0</span></h2>
+   
+    </div>
+    <div id="footer">Created By Surendra Singh❤️</div>
+   
+</body>
+</html>
